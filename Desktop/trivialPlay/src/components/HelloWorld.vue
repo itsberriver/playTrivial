@@ -29,7 +29,7 @@ defineProps({
             <button class="bg-random box-border h-10 w-60 rounded-3xl font-Mont">random</button>
         </div>
 
-        <div class=" text-2xl bg-white flex m-auto justify-center py-2 text-science box-border h-11 w-52 rounded-3xl font-Mont">
+        <div class=" m-8 text-2xl bg-white flex m-auto justify-center py-2 text-science box-border h-11 w-52 rounded-3xl font-Mont">
         <!-- button confirm -->
         CONFIRM
         </div>
