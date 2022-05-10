@@ -8,18 +8,18 @@ defineProps({
 </script>
 
 <template>
-  <section class="flex flex-col ">
+  <section class="flex flex-col px-14 bg-bgpurple">
         <!--'category'--> 
 
         <div>
         <!-- tittle 'choose category' --> 
-        <p class="font-Guy text-general text-6xl ">CHOOSE</p>
-        <p class="font-Guy text-art text-6xl ">CATEGORY</p>
+        <p class="flex justify-center pt-12  font-Guy text-general text-6xl ">CHOOSE</p>
+        <p class="flex justify-center font-Guy text-art text-6xl ">CATEGORY</p>
         </div>
 
-        <div class=" font-Mont font-extra-bold text-xl p-5 space-y-5" id="buttons">
+        <div class=" font-Mont font-extra-bold text-xl text-white p-5 space-y-5" id="buttons">
         <!-- buttons with colors and categories -->
-            <button class="bg-sports box-border h-10 w-60 rounded-3xl font-Mont">sports</button>
+            <button class="bg-sports box-border h-10 w-60 rounded-3xl font-Mont ">sports</button>
             <button class="bg-art box-border h-10 w-60 rounded-3xl font-Mont">art</button>
             <button class="bg-tv box-border h-10 w-60 rounded-3xl font-Mont">tv</button>
             <button class="bg-science box-border h-10 w-60 rounded-3xl font-Mont">science</button>
@@ -29,7 +29,7 @@ defineProps({
             <button class="bg-random box-border h-10 w-60 rounded-3xl font-Mont">random</button>
         </div>
 
-        <div class="font-Mont text-2xl bg-white text-science box-border h-11 w-52 rounded-3xl font-Mont">
+        <div class=" text-2xl bg-white flex m-auto justify-center py-2 text-science box-border h-11 w-52 rounded-3xl font-Mont">
         <!-- button confirm -->
         CONFIRM
         </div>
