@@ -5,11 +5,5 @@ import Category from '@/components/Category.vue'
 </script>
 
 <template >
-  <header>
-  </header>
-    
-  <RouterView />
+  <RouterView/>
 </template>
-
-<style>
-</style>

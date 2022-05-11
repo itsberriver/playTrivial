@@ -8,7 +8,7 @@ defineProps({
 </script>
 
 <template>
-  <section class="flex flex-col px-14 bg-bgpurple">
+  <section >
         <!--'category'--> 
 
         <div>
@@ -17,7 +17,7 @@ defineProps({
         <p class="flex justify-center font-Guy text-art text-6xl ">CATEGORY</p>
         </div>
 
-        <div class=" font-Mont font-extra-bold text-xl text-white p-5 space-y-5" id="buttons">
+        <div class="font-Mont font-extra-bold text-xl text-white p-5 space-y-5" id="buttons">
         <!-- buttons with colors and categories -->
             <button class="bg-sports box-border h-10 w-60 rounded-3xl font-Mont ">sports</button>
             <button class="bg-art box-border h-10 w-60 rounded-3xl font-Mont">art</button>
@@ -30,12 +30,11 @@ defineProps({
         </div>
 
         <div class=" m-8 text-2xl bg-white flex m-auto justify-center py-2 text-science box-border h-11 w-52 rounded-3xl font-Mont">
-        <!-- button confirm -->
         CONFIRM
         </div>
 
-        <div>
-        <!-- back arrow vector awesome fonts -->
+        <div class="text-white">
+        el problema son los estilos
         </div>
     </section>
 </template>
