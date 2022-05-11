@@ -17,7 +17,7 @@ defineProps({
         <p class="flex justify-center font-Guy text-art text-6xl ">CATEGORY</p>
         </div>
 
-        <div class=" font-Mont font-extra-bold text-xl text-white p-5 space-y-5" id="buttons">
+        <div class=" font-Mont font-extra-bold  text-xl text-white p-5 space-y-5" id="buttons">
         <!-- buttons with colors and categories -->
             <button class="bg-sports box-border h-10 w-60 rounded-3xl font-Mont ">sports</button>
             <button class="bg-art box-border h-10 w-60 rounded-3xl font-Mont">art</button>
