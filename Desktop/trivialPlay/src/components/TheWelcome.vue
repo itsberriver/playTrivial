@@ -8,9 +8,10 @@
       <p>TRIVUEAL</p>
       <p>FACTÓRIA</p>
     </div>
-
     <div class="text-white">
-        <button class="bg-[#8BD048] box-border h-10 w-60 rounded-3xl font-Mont ">START</button>
+      <button class="bg-[#8BD048] box-border h-10 w-60 rounded-3xl font-Mont"> 
+        <RouterLink to="/category">START</RouterLink>
+      </button>
     </div>
 
     <div class="text-white">
