@@ -10,9 +10,9 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/question',
-      name: 'question',
-      component: () => import('../views/QuestionView.vue')
+      path: '/mode',
+      name: 'mode',
+      component: () => import('../views/ModeView.vue')
     },
     {
       path: '/category',
@@ -21,7 +21,12 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/CategoryView.vue')
-    }
+    },
+    {
+      path: '/question',
+      name: 'question',
+      component: () => import('../views/QuestionView.vue')
+    },
   ]
 })
 

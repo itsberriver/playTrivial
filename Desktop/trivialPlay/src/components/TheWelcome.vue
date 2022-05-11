@@ -11,7 +11,7 @@
 
     <div class="text-white flex justify-center shadow-2xl text-center">
       <button class="bg-[#8BD048] box-border h-10 w-40 rounded-3xl font-Mont mt-20" > 
-        <RouterLink to="/category">START</RouterLink>
+        <RouterLink to="/mode">START</RouterLink>
       </button>
     </div>
 
