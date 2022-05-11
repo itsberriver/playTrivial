@@ -17,7 +17,10 @@
 
     <div class="text-white flex flex-col justify-center mt-60 text-center">
         <p>don’t know how to play?</p>
-        <p class="">PRESS HERE</p>
+        <RouterLink to="/rules">
+          PRESS HERE
+        </RouterLink>
+          
     </div>
 
 </template>
