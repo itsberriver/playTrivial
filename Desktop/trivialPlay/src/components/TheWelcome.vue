@@ -3,7 +3,7 @@
 </script>
 
 <template >
-    <div class="flex flex-col text-white mt-60 text-center font-Guy ">
+    <div id ="background" class="flex flex-col text-white mt-60 text-center font-Guy ">
       <p class="text-6xl px-6">TRIVUEAL</p>
       <p class="text-7xl">FACTÓRIA</p>
     </div>
