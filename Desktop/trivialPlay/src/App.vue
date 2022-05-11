@@ -4,21 +4,20 @@ import HelloWorld from '@/components/HelloWorld.vue'
 
 </script>
 
-<template>
+<template >
   <header>
-
-      <HelloWorld msg="You did it!" />
-
-      <nav>
+  </header>
+    <main> 
+      <!-- <HelloWorld msg="You did it!" /> -->
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/category">Category</RouterLink>
-      </nav>
-  </header>
-
+        
+      <div id="background">
+        <RouterLink to="/category">START</RouterLink>
+      </div>
+    </main> 
   <RouterView />
 </template>
 
 <style>
-
 </style>
