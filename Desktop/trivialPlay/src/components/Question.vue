@@ -8,13 +8,13 @@ defineProps({
 </script>
 
 <template>
-  <section class="font-Mon container max-auto bg-bgpurple text-white ">
+  <section class="flex flex-col justify-center text-white text-center ">
     <div class=" ">
-      <h1 class="font-Guy text-xl ">Trivueal Factória</h1>
+      <h1 class="font-Guy mt-6  text-sm ">Trivueal Factória</h1>
 
     </div>
 
-    <div class=" font-extra-bold text-3xl "> 
+    <div class=" font-extra-bold mt-40 text-3xl "> 
       <!-- api question -->
       <h1 class="  font-extrabold ">Who painted the biblical fresco The Creation of Adam?</h1>
 
