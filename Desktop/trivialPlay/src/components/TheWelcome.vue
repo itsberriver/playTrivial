@@ -1,5 +1,3 @@
-<script setup></script>
-
 <template>
   <div class="flex flex-col text-white mt-60 text-center font-Guy">
     <p class="text-6xl px-6">TRIVUEAL</p>
@@ -19,6 +17,8 @@
     <p class="">PRESS HERE</p>
   </div>
 </template>
+
+<script></script>
 
 <style>
 body {
