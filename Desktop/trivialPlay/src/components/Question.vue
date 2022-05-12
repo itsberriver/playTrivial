@@ -1,10 +1,29 @@
-<script setup>
-defineProps({
-  msg: {
-    type: String,
-    required: true
-  }
-})
+<script >
+  import axios from 'axios'
+export default {
+    name: 'Inicio',
+    data(){
+        return{
+            posts: []
+
+        }
+    },
+
+    mounted() {
+        let vue = this;
+        axios.get
+            ('https://opentdb.com/api.php?amount=1&category=25&difficulty=easy&type=multiple')
+            
+        .then (function (response){
+            vue.posts = response.data
+            console.log(vue.posts)
+
+            
+            
+        })
+    }
+
+}
 </script>
 
 <template>
@@ -16,7 +35,7 @@ defineProps({
 
     <div class=" font-extra-bold mt-40 text-3xl "> 
       <!-- api question -->
-      <h1 class="  font-extrabold ">Who painted the biblical fresco The Creation of Adam?</h1>
+      <h1 class="font-extrabold ">Who painted the biblical fresco The Creation of Adam?</h1>
 
     </div>
 
