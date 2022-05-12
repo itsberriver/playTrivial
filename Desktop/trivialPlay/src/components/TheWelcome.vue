@@ -3,8 +3,8 @@
 </script>
 
 <template >
-    <div id ="background" class="flex flex-col text-white mt-60 text-center font-Guy ">
-      <p class="text-6xl px-6">TRIVUEAL</p>
+        <div id ="background" class="flex flex-col text-white mt-60 text-center font-Guy ">
+          <p class="text-6xl px-6">TRIVUEAL</p>
       <p class="text-7xl">FACTÓRIA</p>
     </div>
 
@@ -16,8 +16,7 @@
     </div>
 
     <div class="text-white flex flex-col justify-center mt-60 text-center">
-        <p>don’t know how to play?</p>
+      <p>don’t know how to play?</p>
         <p class="">PRESS HERE</p>
     </div>
-
 </template>

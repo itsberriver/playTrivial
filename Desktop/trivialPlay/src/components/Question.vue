@@ -27,7 +27,8 @@ export default {
 </script>
 
 <template>
-  <section class="flex flex-col justify-center text-white text-center ">
+
+  <div class="flex flex-col justify-center text-white text-center ">
     <div class=" ">
       <h1 class="font-Guy mt-6  text-sm ">Trivueal Factória</h1>
 
@@ -53,6 +54,6 @@ export default {
       <button class="bg-white rounded-full font-extra-bold text-science w-52 h-8">Next</button> 
     </div>
     <TheWelcome/>
-  </section>
+  </div>
 </template>
 

@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-#background{
-    background-image: url(../src/assets/background_home.png/background.jpg);
-}
+/* #background{
+    background-image: url(../src/assets/background_home.png);
+} */

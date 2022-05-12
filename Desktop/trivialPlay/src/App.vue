@@ -5,5 +5,7 @@ import Category from '@/components/Category.vue'
 </script>
 
 <template >
+
   <RouterView/>
+
 </template>
